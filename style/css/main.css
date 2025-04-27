@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smile {
+  background-color: #6592cf;
+}
+.smile .smile__wrapper {
+  width: 899px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+}
+.smile .smile__wrapper .circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #060f55;
+}
+.smile .smile__wrapper .circle .inner__circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #6592cf;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.smile .smile__wrapper .rect {
+  width: 100%;
+  height: 300px;
+  background-color: #6592cf;
+  position: absolute;
+  top: 150px;
+}
+
+.window {
+  background-color: #191919;
+}
+.window .window__wrapper {
+  width: 460px;
+  height: 620px;
+  background-color: #f2ad43;
+  border-radius: 230px 230px 60px 60px;
+  position: relative;
+  overflow: hidden;
+}
+.window .window__wrapper .sun {
+  width: 200px;
+  height: 200px;
+  background-color: #fff58f;
+  border-radius: 50%;
+  position: absolute;
+  top: 300px;
+  left: 130px;
+}
+.window .window__wrapper .hill {
+  width: 620px;
+  height: 620px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -320px;
+}
+.window .window__wrapper .hill-1 {
+  background-color: #e08027;
+  left: -320px;
+}
+.window .window__wrapper .hill-2 {
+  background-color: #824b20;
+  right: -320px;
+}
+
+.eye {
+  background-color: #6592cf;
+}
+.eye .eye__wrapper {
+  width: 920px;
+  height: 460px;
+  background-color: #243d83;
+  position: relative;
+  overflow: hidden;
+}
+.eye .eye__wrapper .eye__circle1 {
+  width: 760px;
+  height: 760px;
+  border-radius: 50%;
+  background-color: #6592cf;
+  position: absolute;
+  right: 80px;
+  top: -150px;
+}
+.eye .eye__wrapper .eye__circle1 .eye__circle2 {
+  width: 460px;
+  height: 460px;
+  border-radius: 50%;
+  background-color: #243d83;
+  position: absolute;
+  right: 150px;
+  top: 150px;
+}
+.eye .eye__wrapper .eye__circle1 .eye__circle2 .eye__circle3 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #eeb850;
+  position: absolute;
+  right: 155px;
+  top: 155px;
+}
+
+.icecream {
+  background-color: #293462;
+}
+.icecream .icecream__wrapper .icecream__ice {
+  width: 300px;
+  height: 450px;
+  background-color: #fff1c1;
+  border-radius: 230px 230px 80px 80px;
+}
+.icecream .icecream__wrapper .icecream__stick {
+  width: 100px;
+  height: 150px;
+  background-color: #fe5f55;
+  margin: 0 auto;
+  border-radius: 0 0 30px 30px;
+}
+.icecream .icecream__wrapper .icecream__stick .icecream__stick-shadow {
+  width: 100px;
+  height: 30px;
+  background-color: #a64942;
+}
+
+.squares {
+  background-color: #f3ac3c;
+}
+.squares .squares__wrapper {
+  width: 600px;
+  height: 600px;
+  background-color: #1a4341;
+}
+.squares .squares__wrapper .square-1 {
+  width: 300px;
+  height: 300px;
+  background-color: #998235;
+  position: relative;
+  top: 300px;
+}
+.squares .squares__wrapper .square-1 .square-2 {
+  width: 150px;
+  height: 150px;
+  background-color: #f3ac3c;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+
+.bug {
+  background-color: #293462;
+}
+.bug .bug__wrapper {
+  width: 600px;
+  height: 600px;
+  border-radius: 50% 50% 25% 25%;
+  background-color: #fe5f55;
+  position: relative;
+  overflow: hidden;
+}
+.bug .bug__wrapper .bug__hair {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #fff1c1;
+  position: absolute;
+  top: -150px;
+}
+.bug .bug__wrapper .bug__hair-1 {
+  left: 0;
+}
+.bug .bug__wrapper .bug__hair-2 {
+  right: 0;
+}
+.bug .bug__wrapper .bug__eye {
+  width: 180px;
+  height: 180px;
+  background-color: #fff1c1;
+  border-radius: 50%;
+  position: absolute;
+  top: 265px;
+}
+.bug .bug__wrapper .bug__eye-1 {
+  left: 65px;
+}
+.bug .bug__wrapper .bug__eye-2 {
+  right: 65px;
+}
+.bug .bug__wrapper .bug__mouth {
+  width: 130px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #fff1c1;
+  position: absolute;
+  bottom: 50px;
+  left: 235px;
+}
+
+/*# sourceMappingURL=main.css.map */
